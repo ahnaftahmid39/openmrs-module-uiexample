@@ -1,0 +1,6 @@
+org/openmrs/module/uiexample/UIexampleActivator.class
+org/openmrs/module/uiexample/UIexampleConfig.class
+org/openmrs/module/uiexample/api/dao/UIexampleDao.class
+org/openmrs/module/uiexample/Item.class
+org/openmrs/module/uiexample/api/impl/UIexampleServiceImpl.class
+org/openmrs/module/uiexample/api/UIexampleService.class

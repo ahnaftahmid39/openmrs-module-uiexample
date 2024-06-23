@@ -1,0 +1,6 @@
+/home/dsi/Desktop/openmrs-modules/uiexample/api/src/main/java/org/openmrs/module/uiexample/Item.java
+/home/dsi/Desktop/openmrs-modules/uiexample/api/src/main/java/org/openmrs/module/uiexample/api/UIexampleService.java
+/home/dsi/Desktop/openmrs-modules/uiexample/api/src/main/java/org/openmrs/module/uiexample/UIexampleActivator.java
+/home/dsi/Desktop/openmrs-modules/uiexample/api/src/main/java/org/openmrs/module/uiexample/UIexampleConfig.java
+/home/dsi/Desktop/openmrs-modules/uiexample/api/src/main/java/org/openmrs/module/uiexample/api/dao/UIexampleDao.java
+/home/dsi/Desktop/openmrs-modules/uiexample/api/src/main/java/org/openmrs/module/uiexample/api/impl/UIexampleServiceImpl.java

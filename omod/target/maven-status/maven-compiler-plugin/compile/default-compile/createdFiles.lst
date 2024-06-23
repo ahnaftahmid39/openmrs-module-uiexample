@@ -1,0 +1,4 @@
+org/openmrs/module/uiexample/extension/html/AdminList.class
+org/openmrs/module/uiexample/web/controller/UIexampleController.class
+org/openmrs/module/uiexample/fragment/controller/UsersFragmentController.class
+org/openmrs/module/uiexample/fragment/controller/EncountersTodayFragmentController.class
