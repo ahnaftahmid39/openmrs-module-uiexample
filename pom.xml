@@ -1,12 +1,13 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-		xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-    <parent>
-        <groupId>org.openmrs.maven.parents</groupId>
-        <artifactId>maven-parent-openmrs-module</artifactId>
-        <version>1.1.0</version>
-    </parent>
+	<parent>
+		<groupId>org.openmrs.maven.parents</groupId>
+		<artifactId>maven-parent-openmrs-module</artifactId>
+		<version>1.1.0</version>
+	</parent>
 
 	<groupId>org.openmrs.module</groupId>
 	<artifactId>uiexample</artifactId>
@@ -27,20 +28,37 @@
 		<module>api</module>
 		<module>omod</module>
 	</modules>
-
+	<properties>
+		<htmlformentryModuleVersion>3.12.0</htmlformentryModuleVersion>
+		<openmrsPlatformVersion>1.11.6</openmrsPlatformVersion>
+	</properties>
 	<dependencyManagement>
 		<dependencies>
 			<!-- Importing versions from refapp distro -->
-            <dependency>
-                <groupId>org.openmrs.distro</groupId>
-                <artifactId>referenceapplication</artifactId>
-                <version>2.4</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
+			<dependency>
+				<groupId>org.openmrs.distro</groupId>
+				<artifactId>referenceapplication</artifactId>
+				<version>2.4</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+
+
 		</dependencies>
 	</dependencyManagement>
+	<dependencies>
 
+		<dependency>
+			<groupId>org.openmrs.module</groupId>
+			<artifactId>htmlformentry-api-1.10</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.openmrs.module</groupId>
+			<artifactId>htmlformentryui-api</artifactId>
+		</dependency>
+
+	</dependencies>
 	<repositories>
 		<repository>
 			<id>openmrs-repo</id>
@@ -65,7 +83,4 @@
 		</pluginRepository>
 	</pluginRepositories>
 
-	<properties>
-		<openmrsPlatformVersion>1.11.6</openmrsPlatformVersion>
-	</properties>
 </project>
